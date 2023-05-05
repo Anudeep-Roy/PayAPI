@@ -1,0 +1,60 @@
+.bannerSection.pricing {
+    height: auto;
+}
+.bannerSection.pricing h1 {
+    margin: 70px 0 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+.plansContainer {
+    display: flex;
+    justify-content: space-between;
+}
+.plansContainer .soloPlan {
+    width: 30%;
+}
+.plansContainer h2 {
+    color: #BA4270;
+    font-family: 'Times New Roman', Times, serif;
+}
+.plansContainer p {
+    font-size: 15px;
+    color: #7c8fa0;
+}
+.plansContainer h3 {
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0 0 1em;
+    border-bottom: 1px solid #cad5de;
+}
+.plansContainer ul {
+    list-style-type: none;
+    padding-left: 0;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #cad5de;
+    margin-bottom: 40px;
+}
+.plansContainer ul li:before {
+    content: '✓';
+    opacity: 0;
+    color: #BA4270;
+    margin: 0 15px 0 0;
+    line-height: 35px;
+}
+.plansContainer ul li.active:before {
+    opacity: 1;
+}
+.plansContainer a.request {
+    text-decoration: none;
+    color: #36536b;
+    font-weight: bold;
+    padding: 15px;
+    border: 1px solid #36536b;
+    border-radius: 100px;
+    transition: 0.5s;
+}
+.plansContainer a.request:hover {
+    color: #fff;
+    background-color: #36536b;
+}

@@ -1,0 +1,48 @@
+.bannerSection.about {
+    height: auto;
+}
+.bannerSection.about h1{
+    margin: 70px 0 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    width: 60%;
+}
+.descriptions {
+    display: flex;
+}
+.descriptions .descriptionsLeft {
+    width: 30%;
+}
+.descriptions .descriptionsRight {
+    width: 70%;
+}
+.descriptions .descriptionsRight p {
+    color: #6c8294;
+}
+.imgContainer img {
+    width: 100%;
+    margin: 20px 0;
+}
+.countsContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 50px;
+}
+.countsContainer .counts {
+    width: 30%;
+    padding: 20px 0;
+    border-top: 1px solid #cad5de;
+    border-bottom: 1px solid #cad5de;
+}
+.countsContainer .counts h4 {
+    font-size: 14px;
+    color: #6d8395;
+    margin: 0 0 1em;
+}
+.countsContainer .counts p {
+    color: #ba4270;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0;
+}

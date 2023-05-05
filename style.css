@@ -1,0 +1,279 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+	color: #36536B;
+}
+.container {
+	width: 80%;
+	margin: 0 auto;
+	height: 100%;
+}
+/*---------------------------------------------------------
+Homepage
+-----------------------------------------------------------*/
+/*-----Banner section--------*/
+.bannerSection {
+	height: 800px;
+	background: #edf3f8;
+	background-image: url('images/bannerBack.png');
+	background-position: right top;
+  	background-repeat: no-repeat;
+  	background-size: 45%;
+  	color: #36536B;
+}
+.subscribe {
+	background: #BA4270;
+	padding: 10px 30px;
+	border-radius: 30px;
+}
+.subscribe:hover {
+	opacity: 0.5;
+	cursor: pointer;
+}
+.subscribe a {
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+}
+.mainMenu {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 0 0;
+}
+.menuLeft, .menuRight, .logo, .menuItems {
+	display: flex;
+	width: 50%;
+}
+.menuLeft {
+	justify-content: space-around;
+}
+.menuRight {
+	justify-content: flex-end;
+	align-items: center;
+}
+.menuItems {
+	align-items: center;
+}
+.menuItems a {
+	color: #36536B;
+	text-decoration: none;
+	margin: 0 10px;
+	transition: 0.5s;
+}
+.menuItems a:hover {
+	font-weight: bold;
+}
+.mainBanner {
+	display: flex;
+	margin: 100px 0 0;
+}
+.mainBanner .bannerLeft, .mainBanner .bannerRight {
+	display: flex;
+	width: 50%;
+}
+.mainBanner .bannerLeft {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.mainBanner .bannerLeft h1{
+	font-size: 70px;
+	font-family: 'Times New Roman', Times, serif;
+}
+.mainBanner .bannerLeft .emailSubmit{
+	display: flex;
+	width: 100%;
+	margin: 0 0 15px;
+	position: relative;
+}
+.mainBanner .bannerLeft .emailSubmit input{
+	border: none;
+	border-radius: 50px 0 0 50px;
+	padding: 0 0 0 10px;
+	width: 50%;
+	height: 41px;
+}
+.mainBanner .bannerLeft .emailSubmit .subscribe{
+	width: 50%;
+	text-align: center;
+	position: absolute;
+	right: 0;
+}
+.mainBanner .bannerLeft .contactUs a{
+	color:#36536B;
+	font-weight: bold;
+	text-decoration: none;
+}
+.mainBanner .bannerRight {
+	justify-content: flex-end;
+}
+
+/*------Companies---------*/
+.companies {
+	background: #1B262F;
+	background-image: url('images/companyBack.png');
+	background-position: left top;
+  	background-repeat: no-repeat;
+  	background-size: auto;
+	color: #fff;
+	padding: 70px 0;
+	max-height: 400px;
+}
+.companies h2 {
+	font-size: 50px;
+	font-family: 'Times New Roman', Times, serif;
+	margin: 0 0 10px;
+}
+.companies .companiesLeft, .companies .companiesRight {
+	width: 50%;
+	display: flex;
+	height: 100%;
+}
+.companies .mainCompanies {
+	display: flex;
+	height: 100%;
+}
+.companies .companiesLeft {
+	flex-direction: column;
+	justify-content: space-between;
+}
+.companies .companiesLeft p {
+	color: #b9bec3;
+	line-height: 1.5em;
+}
+.companies .companiesLeft a{
+	color: #fff;
+	text-decoration: none;
+    border: 1px solid;
+    display: inline;
+    border-radius: 50px;
+    padding: 10px 25px;
+	font-weight: bold;
+	text-align: center;
+	transition: 0.5s;
+	width: 100px;
+}
+.companies .companiesLeft a:hover{
+	background: #fff;
+	color: #1B262F;
+}
+.companies .companiesRight {
+	height: auto;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+/*-----Easy section-----*/
+.easy {
+	background-color:#edf3f8;
+	padding: 70px 0;
+}
+.easy .container {
+	display: flex;
+	flex-wrap: wrap;
+}
+.easy .easyLeft, .easy .easyRight {
+	width: 50%;
+	display: flex;
+	margin: 0 0 40px;
+}
+.easy .easyLeft {
+	align-items: center;
+}
+.easy .easyRight {
+	flex-direction: column;
+	justify-content: center;
+}
+.easy .easyRight h2{
+	margin: 0;
+	font-size: 50px;
+	font-family: 'Times New Roman', Times, serif;
+}
+.easy .easyRight p {
+	line-height: 1.7em;
+	opacity: 0.8;
+}
+.easy .easyLeft.easySecond {
+	justify-content: space-between;
+}
+.easy .easyLeft.easySecond img {
+	width: 50%;
+	height: auto;
+}
+
+/*-----Finance----*/
+.finances {
+	display: flex;
+	justify-content: space-between;
+}
+.finances .soloFin {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	width: 30%;
+}
+.finances .soloFin p {
+	margin: 0;
+}
+.ready {
+	background: #edf3f8
+}
+.ready.mainBanner {
+	margin: 0;
+	height: 200px;
+}
+.ready.mainBanner .container{
+	display: flex;
+	justify-content: space-between;
+}
+.ready.mainBanner .readyLeft{
+	display: flex;
+	align-items: center;
+}
+.ready.mainBanner h3{
+	font-size: 50px;
+	font-family: 'Times New Roman', Times, serif;
+	margin: 0;
+}
+/*----Footer----*/
+.footer {
+	height: 100px;
+	background: #1B262F;
+}
+.footer .container {
+	display: flex;
+}
+.footer .footerLeft, .footer .footerRight {
+	width: 50%;
+}
+.footer .footerLeft {
+	display: flex;
+	justify-content: space-between;
+}
+.footer .footerLeft .footerImage {
+	width: 50%;
+	display: flex;
+	align-items: center;
+}
+.footer .footerLeft ul{
+	display: flex;
+	list-style-type: none;
+	justify-content: space-evenly;
+	width: 50%;
+	align-items: center;
+}
+.footer .footerLeft ul a {
+	text-decoration: none;
+	color: #b9bec3;
+	transition: 0.5s;
+}
+.footer .footerLeft ul a:hover {
+	color: #fff;
+}
+.footer .footerRight {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
