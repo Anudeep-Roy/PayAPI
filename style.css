@@ -277,3 +277,29 @@ Homepage
 	justify-content: flex-end;
 	align-items: center;
 }
+
+/*---Responsive----*/
+@media(max-width: 767px) {
+	.bannerSection {
+		height: auto;
+	}
+	.mainBanner, .companies .mainCompanies {
+		flex-direction: column-reverse;
+		align-items: center;
+	}
+	.bannerLeft {
+		text-align: center;
+	}
+	.companies .companiesRight {
+		margin: 0 0 40px;
+	}
+	.companies .companiesLeft {
+		align-items: center;
+	}
+	.easy .container, .finances {
+		flex-direction: column;
+	}
+	.finances .soloFin {
+		margin: 0 0 30px;
+	}
+}
